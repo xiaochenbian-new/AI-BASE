@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "邮件发送（QQ 邮箱 / SMTP）",
+    "description": "用你的 QQ 邮箱或任意 SMTP 账号发邮件。设置页：http://127.0.0.1:1461/dsh-email-plugin/settings",
+    "detail": "docs/detail.zh.md"
+  }
+}

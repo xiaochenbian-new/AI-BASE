@@ -1,0 +1,5 @@
+# Bundle layer contributed to a DSH profile when this package is installed.
+# The row loads this package's lib/index.js, which registers the email tools.
+- insert:
+    - id: email-tools
+      name: dsh-email-plugin

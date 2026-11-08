@@ -1,0 +1,20 @@
+# 依赖与构建产物
+node_modules/
+*.tgz
+*.tar.gz
+
+# 本地配置与密钥
+.env
+.env.*
+*.local
+email-plugin.json
+
+# 日志与临时文件
+*.log
+tmp/
+.Temp/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Email (QQ Mail / SMTP)",
+    "description": "Send email through your QQ Mail or any SMTP account. Settings page: http://127.0.0.1:1461/dsh-email-plugin/settings",
+    "detail": "docs/detail.en.md"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "dsh-email-plugin",
+  "version": "0.1.2",
+  "description": "通过 QQ 邮箱 / SMTP 发送邮件。设置页：http://127.0.0.1:1461/dsh-email-plugin/settings（端口随 DSH 的 Web 端口；也见下方详细介绍）。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "docs",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "email",
+    "smtp",
+    "qq-mail"
+  ],
+  "scripts": {
+    "test": "node --test test/plugin.test.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22",
+    "dsh": "^0.2.2-rc.1 || ^0.2.1"
+  },
+  "private": true
+}
